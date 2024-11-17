@@ -1,0 +1,196 @@
+#active-timers-display {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.timer-ended {
+    color: rgb(239, 220, 220);
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+#start-timer {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 5px 10px;
+    background-color:yellow;
+    border-radius: 10%;
+      color:black;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    margin-right: 10px;
+    padding: 5px;
+    width: 60px;
+}
+
+input {
+    margin: 5px;
+}
+#active-timers-display p {
+    font-size: 16px;
+    color: #777;  /* Light gray color */
+    text-align: center;
+    font-style: italic;
+}
+#active-timers-display h2 {
+    text-align: center;        /* Center the text horizontally */
+    font-size: 24px;           /* Set font size */
+    color: #333;               /* Set font color */
+    margin: 20px 0;            /* Optional: add margin for spacing */
+}
+  .app{
+    text-align: center;
+  }
+  /* Style the input fields */
+/* Remove the box (border) around the input fields */
+#timer-input-section input {
+    border: none; /* Remove the border */
+    border-bottom: 2px solid #ccc; /* Add only an underline to the input fields */
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    background-color: transparent; 
+    /* Make the background transparent */
+    
+}
+
+#timer-input-section input::placeholder {
+    text-align: center;
+    color: #888; /* Light gray color for the placeholder text */
+}
+
+#timer-input-section {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#start-timer{
+    border-radius: 30%;
+    background-color: yellow;
+    color: #181313;;
+}
+body{
+    background-color: #333;
+}
+.app{
+    color:white
+}
+#timersHeader{
+    font:white;
+}
+.current-timers-header {
+    color: white;
+    width: 413px;
+height: 66px;
+top: 313px;
+left: 657px;
+gap: 0px;
+border-radius: 50px 0px 0px 0px;
+opacity: 0px;
+
+}
+.timer-display {
+    color: white;
+     justify-content: center; /* Centers horizontally */
+    align-items: center; 
+    display: flex;/* Centers vertically */
+    height: 100%; /* Makes the container take up the full height of its parent */
+    width: 100%; /* Makes the container take up the full width of its parent */
+    text-align: center;
+}
+.time-left{
+    color: white;
+}
+.delete{
+    background-color: #181313;
+    font:white;
+}
+button {
+    background-color: black; /* Black background */
+    color: white; /* White font color */
+    border: none;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h5 {
+    color: white;
+    background-color: #444; /* Background color for the box */
+    padding: 10px 20px;      /* Padding around the content */
+    text-align: center;
+    border-radius: 10px;     /* Rounded corners */
+    margin: 10px auto;       /* Center the element and add vertical spacing */
+    display: block;          /* Ensures the element starts on a new line */
+    width: fit-content;      /* Shrink to fit the content */
+}
+
+.timer-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.timer-display, .time-left {
+    font-size: 16px;
+    margin-right: 10px;
+}
+.delete-btn {
+    background-color: rgb(19, 6, 6);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.timer-up {
+    background-color: yellow; /* Set background color to yellow when the timer is up */
+    padding: 10px;  /* Add padding for better visual appearance */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin-bottom: 10px; /* Optional: space between timer elements */
+}
+
+.timer-display {
+    color: black; /* Set the text color of "Timer is Up!" to black */
+}
+.time-left-container {
+    color: white;
+    justify-content: center; /* Centers horizontally */
+   align-items: center; 
+/* Centers vertically */
+   height: 100%; /* Makes the container take up the full height of its parent */
+   width: 100%; /* Makes the container take up the full width of its parent */
+   text-align: center;
+}
